@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd{
+    background-color: rgba(255, 0, 0, 0.377);
+    font-family: "verdana", "dejaVu Sans", sans-serif ;
+}
+.oddi{
+    font-size: 24px;
+}
+
+
+#even{
+    color: blue;
+    font-size: 36px;
+}
+
+#uneven{
+    background-color: rgba(0, 128, 0, 0.605);
+    font-weight: bold;
+    font-size: 24px;
+}
