@@ -19,8 +19,8 @@
 ul {
   /* this removes the dots on the list items*/
   display: flex;
-  padding-left: 0px;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   list-style-type: none;
   gap: 10px;
 
