@@ -32,7 +32,9 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  font-size: 24px;
+  list-style-type: none;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -44,12 +46,25 @@ body {
 .middel{
   display: flex;
   flex-grow: 1;
-  list-style-type: none;
-  
-  
+ 
 }
 
 a{
+  font-size: 24px;
   text-decoration: none;
   color: white;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.left{
+  display: flex;
+  flex-shrink: 0;
+
 }
