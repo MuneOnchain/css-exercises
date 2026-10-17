@@ -68,3 +68,15 @@ ul{
   flex-shrink: 0;
 
 }
+
+.right{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 20px;
+}
+
+.card{
+  width: 330px;
+  padding: 16px;
+}
